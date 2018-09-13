@@ -379,7 +379,8 @@ form {
   .page2heroMobile {
     display: none; }
   .section2__text {
-    text-align: left; }
+    text-align: left;
+    padding: 7% 0 0; }
   form {
     -webkit-transform: translateX(5%);
     -ms-transform: translateX(5%);
@@ -447,11 +448,11 @@ form {
     height: 45%;
     min-height: 0; }
   .page2hero {
-    width: 80%;
-    max-width: 330px;
-    -webkit-transform: scale(1.1) translate(10%, -8%);
-    -ms-transform: scale(1.1) translate(10%, -8%);
-    transform: scale(1.1) translate(10%, -8%);
+    width: 85%;
+    max-width: 400px;
+    -webkit-transform: scale(1.1) translate(20%, -4%);
+    -ms-transform: scale(1.1) translate(20%, -4%);
+    transform: scale(1.1) translate(20%, -4%);
     display: block; }
   .page2heroMobile {
     display: none; }
@@ -459,7 +460,8 @@ form {
     -webkit-transform: translateX(1%);
     -ms-transform: translateX(1%);
     transform: translateX(1%);
-    text-align: left; }
+    text-align: left;
+    padding: 5% 0 0; }
   form {
     -webkit-transform: translateX(5%);
     -ms-transform: translateX(5%);
@@ -529,9 +531,9 @@ form {
   .page2hero {
     width: 85%;
     max-width: 500px;
-    -webkit-transform: scale(1.1) translate(10%, -9%);
-    -ms-transform: scale(1.1) translate(10%, -9%);
-    transform: scale(1.1) translate(10%, -9%);
+    -webkit-transform: scale(1.1) translate(15%, -9%);
+    -ms-transform: scale(1.1) translate(15%, -9%);
+    transform: scale(1.1) translate(15%, -9%);
     display: block; }
   .page2heroMobile {
     display: none; }
@@ -539,7 +541,8 @@ form {
     -webkit-transform: translate(-5%, 9%);
     -ms-transform: translate(-5%, 9%);
     transform: translate(-5%, 9%);
-    text-align: left; }
+    text-align: left;
+    padding: 3% 0 0; }
   form {
     -webkit-transform: translateX(4%);
     -ms-transform: translateX(4%);
@@ -618,6 +621,8 @@ form {
   .row {
     min-height: 100%;
     margin: 0 !important; }
+  .mobile-hidden2 {
+    display: none; }
   .contactInfo {
     text-align: center;
     padding: 5% 0 0 0; }
@@ -704,9 +709,11 @@ form {
   .page2hero {
     width: 85%;
     max-width: 400px;
-    -webkit-transform: scale(1.1) translate(0%, -2%);
-    -ms-transform: scale(1.1) translate(0%, -2%);
-    transform: scale(1.1) translate(0%, -2%); }
+    -webkit-transform: scale(1.1) translate(10%, -2%);
+    -ms-transform: scale(1.1) translate(10%, -2%);
+    transform: scale(1.1) translate(10%, -2%); }
+  .section2__text {
+    padding-top: 7%; }
   .contactInfo {
     padding: 25% 0; }
     .contactInfo p {
