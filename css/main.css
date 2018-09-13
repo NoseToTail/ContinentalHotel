@@ -243,18 +243,18 @@ form {
     top: 50%;
     width: 63%; }
   .contactInfo {
-    padding: 55% 0; }
+    padding: 55% 0 0; }
     .contactInfo p {
       font-size: 1.2rem; }
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1.1rem; }
   .formheader {
     text-align: center;
-    padding: 30% 50px 0px;
-    letter-spacing: 6px;
-    font-size: 1rem; }
+    padding: 30% 0px 0px;
+    letter-spacing: 3px;
+    font-size: 1.2rem; }
   .section1__logo {
     position: absolute;
     top: 0;
@@ -323,12 +323,12 @@ form {
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1.2rem; }
   .formheader {
     text-align: center;
     padding: 30% 0 0;
     letter-spacing: 6px;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   #subjectLine, textarea {
     width: 90% !important; }
   .section1__logo {
@@ -395,16 +395,16 @@ form {
     width: 32%;
     max-width: 40vh; }
   .contactInfo {
-    padding: 30% 0; }
+    padding: 25% 0; }
     .contactInfo p {
-      font-size: 1.2rem; }
+      font-size: 1rem; }
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1.1rem; }
   .formheader {
     text-align: center;
-    padding: 15% 0 0;
+    padding: 12% 0 0;
     letter-spacing: 6px;
     font-size: 1rem; }
   #subjectLine, textarea {
@@ -476,18 +476,18 @@ form {
     width: 32%;
     max-width: 40vh; }
   .contactInfo {
-    padding: 23% 0; }
+    padding: 19% 0; }
     .contactInfo p {
       font-size: 1.2rem; }
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1rem; }
   .formheader {
     text-align: center;
-    padding: 10% 0 0;
+    padding: 9% 0 0;
     letter-spacing: 6px;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   #subjectLine, textarea {
     width: 90% !important; }
   .section1__logo {
@@ -563,12 +563,12 @@ form {
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1rem; }
   .formheader {
     text-align: center;
     padding: 7% 0 0;
     letter-spacing: 6px;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   #subjectLine, textarea {
     width: 90% !important; }
   .section1__logo {
@@ -676,16 +676,16 @@ form {
     margin: 0 !important; }
   .contactInfo {
     text-align: center;
-    padding: 2% 0 0 0; }
+    padding: 4% 0 0 0; }
     .contactInfo p {
-      font-size: 0.8rem; }
+      font-size: 0.7rem; }
       .contactInfo p:first-child {
         letter-spacing: 3px; }
       .contactInfo p:last-child {
-        font-size: 0.8rem;
-        -webkit-transform: translateY(-10%);
-        -ms-transform: translateY(-10%);
-        transform: translateY(-10%); }
+        font-size: 0.7rem;
+        -webkit-transform: translateY(-25%);
+        -ms-transform: translateY(-25%);
+        transform: translateY(-25%); }
   hr {
     display: none; }
   .mobile-hidden {
@@ -694,9 +694,9 @@ form {
   .formheader {
     text-align: center;
     padding: 0px 0px 0px;
-    margin-top: -30%;
+    margin-top: -40%;
     letter-spacing: 4px;
-    font-size: 0.8rem; }
+    font-size: 0.7rem; }
   .form-group {
     margin-bottom: 0.2rem !important; }
   .section1__footertxt, .section1__cta {
@@ -717,11 +717,11 @@ form {
   .contactInfo {
     padding: 25% 0; }
     .contactInfo p {
-      font-size: 1.2rem; }
+      font-size: 1rem; }
       .contactInfo p:first-child {
         letter-spacing: 6px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 1rem; }
   .formheader {
     text-align: center;
     padding: 12% 0 0;
