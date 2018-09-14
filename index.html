@@ -21,13 +21,14 @@
 	    		anchors: ['page1', 'page2', 'page3'],
                 sectionsColor: ['white', 'white', 'white'],
                 loopBottom: true,
+                loopTop: true,
 			    navigation: {
                        'tooltips': ['1', '2', '3'],
                        'bulletsColor': '#333'
 			   	},
 			    afterRender: function(){
-                    $('#pp-nav').addClass('custom');
                     $('video').get(0).play();
+                    $('#pp-nav').addClass('custom');
 			    },
 			    afterLoad: function(anchorLink, index){
 			    	if(index>1){
@@ -114,7 +115,10 @@
                             <div class="form-group col-md-6 down-arrow">
                                 <select class="form-control" name="Nature of enquiry">
                                     <option selected>Nature of enquiry</option>
-                                    <option>...</option>
+                                    <option>Recruitment</option>
+                                    <option>Accommodation</option>
+                                    <option>Procurement</option>
+                                    <option>Other</option>                                    
                                 </select>
                             </div>
                         </div>
