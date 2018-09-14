@@ -16,7 +16,7 @@
 }
 .pp-section {
     height:100%;
-    position:absolute;
+    position: fixed;
     width:100%;
 }
 .pp-easing {
@@ -127,4 +127,34 @@
 .pp-scrollable{
     overflow-y: scroll;
     height: 100%;
+}
+
+@media (max-width: 575.98px) { 
+    #pp-nav.right {
+        right: 47%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #pp-nav.right {
+        right: 47%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #pp-nav.right {
+        right: 48%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #pp-nav.right {
+        right: 48.5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1529px) { 
+    #pp-nav.right {
+        right: 48.5%;
+    }
 }
