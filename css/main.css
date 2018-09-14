@@ -646,7 +646,7 @@ form {
   .form-group {
     margin-bottom: 0.5rem !important; } }
 
-@media (max-height: 568px) and (width: 320px) {
+@media (max-height: 610px) and (width: 320px) {
   .page2hero {
     display: none;
     padding-top: 0px;
@@ -669,7 +669,7 @@ form {
     -ms-transform: translateY(-8%);
     transform: translateY(-8%); }
   .footer__text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     letter-spacing: 2px; }
   .row {
     min-height: 100%;
