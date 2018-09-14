@@ -449,19 +449,19 @@ form {
     min-height: 0; }
   .page2hero {
     width: 85%;
-    max-width: 400px;
-    -webkit-transform: scale(1.1) translate(20%, -4%);
-    -ms-transform: scale(1.1) translate(20%, -4%);
-    transform: scale(1.1) translate(20%, -4%);
+    max-width: 425px;
+    -webkit-transform: scale(1.1) translate(20%, 0%);
+    -ms-transform: scale(1.1) translate(20%, 0%);
+    transform: scale(1.1) translate(20%, 0%);
     display: block; }
   .page2heroMobile {
     display: none; }
   .section2__text {
-    -webkit-transform: translateX(1%);
-    -ms-transform: translateX(1%);
-    transform: translateX(1%);
+    -webkit-transform: translate(-6%);
+    -ms-transform: translate(-6%);
+    transform: translate(-6%);
     text-align: left;
-    padding: 5% 0 0; }
+    padding: 6% 0 0; }
   form {
     -webkit-transform: translateX(5%);
     -ms-transform: translateX(5%);
@@ -723,9 +723,9 @@ form {
   .page2hero {
     width: 85%;
     max-width: 400px;
-    -webkit-transform: scale(1.1) translate(10%, -2%);
-    -ms-transform: scale(1.1) translate(10%, -2%);
-    transform: scale(1.1) translate(10%, -2%); }
+    -webkit-transform: scale(1.1) translate(10%, -5%);
+    -ms-transform: scale(1.1) translate(10%, -5%);
+    transform: scale(1.1) translate(10%, -5%); }
   .section2__text {
     padding-top: 7%; }
   .contactInfo {
