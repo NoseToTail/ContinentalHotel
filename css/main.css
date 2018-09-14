@@ -631,7 +631,10 @@ form {
       .contactInfo p:first-child {
         letter-spacing: 4px; }
       .contactInfo p:last-child {
-        font-size: 0.9rem; }
+        font-size: 0.9rem;
+        -webkit-transform: translateY(-15%);
+        -ms-transform: translateY(-15%);
+        transform: translateY(-15%); }
   hr {
     display: none; }
   .mobile-hidden {
@@ -683,9 +686,9 @@ form {
         letter-spacing: 2px; }
       .contactInfo p:last-child {
         font-size: 0.7rem;
-        -webkit-transform: translateY(4%);
-        -ms-transform: translateY(4%);
-        transform: translateY(4%); }
+        -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        transform: translateY(-10%); }
   hr {
     display: none; }
   .mobile-hidden {
