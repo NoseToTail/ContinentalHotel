@@ -192,16 +192,16 @@ input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus, se
   right: 25%;
   pointer-events: none; }
 
-input[type="text"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input[type="text"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select {
   color: grey !important; }
 
-input[type="text"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input[type="text"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder, select {
   color: grey !important; }
 
-input[type="text"]::-ms-input-placeholder, input[type="tel"]::-ms-input-placeholder, input[type="email"]::-ms-input-placeholder, textarea::-ms-input-placeholder {
+input[type="text"]::-ms-input-placeholder, input[type="tel"]::-ms-input-placeholder, input[type="email"]::-ms-input-placeholder, textarea::-ms-input-placeholder, select {
   color: grey !important; }
 
-input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder, textarea::placeholder, select {
   color: grey !important; }
 
 form {
@@ -302,7 +302,7 @@ form {
   .row {
     min-height: 550px; }
   .section2__text {
-    padding: 10% 0 0;
+    padding: 15% 0 0;
     text-align: left; }
   form {
     -webkit-transform: translateX(4%);
@@ -317,7 +317,7 @@ form {
     top: 49%;
     width: 48%; }
   .contactInfo {
-    padding: 40% 0; }
+    margin-top: 35%; }
     .contactInfo p {
       font-size: 1.2rem; }
       .contactInfo p:first-child {
@@ -640,13 +640,13 @@ form {
   .formheader {
     text-align: center;
     padding: 0px 0px 0px;
-    margin-top: -20%;
+    margin-top: -25%;
     letter-spacing: 4px;
     font-size: 0.9rem; }
   .form-group {
-    margin-bottom: 0.8rem !important; } }
+    margin-bottom: 0.5rem !important; } }
 
-@media (height: 568px) and (width: 320px) {
+@media (max-height: 568px) and (width: 320px) {
   .page2hero {
     display: none;
     padding-top: 0px;
@@ -676,16 +676,16 @@ form {
     margin: 0 !important; }
   .contactInfo {
     text-align: center;
-    padding: 4% 0 0 0; }
+    margin-top: 5%; }
     .contactInfo p {
       font-size: 0.7rem; }
       .contactInfo p:first-child {
-        letter-spacing: 3px; }
+        letter-spacing: 2px; }
       .contactInfo p:last-child {
         font-size: 0.7rem;
-        -webkit-transform: translateY(-25%);
-        -ms-transform: translateY(-25%);
-        transform: translateY(-25%); }
+        -webkit-transform: translateY(4%);
+        -ms-transform: translateY(4%);
+        transform: translateY(4%); }
   hr {
     display: none; }
   .mobile-hidden {
@@ -694,11 +694,25 @@ form {
   .formheader {
     text-align: center;
     padding: 0px 0px 0px;
-    margin-top: -40%;
+    margin-top: -30%;
     letter-spacing: 4px;
     font-size: 0.7rem; }
   .form-group {
-    margin-bottom: 0.2rem !important; }
+    margin-bottom: 0rem !important; }
+  input[type="text"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select {
+    color: grey !important;
+    font-size: 0.8rem; }
+  input[type="text"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder, select {
+    color: grey !important;
+    font-size: 0.8rem; }
+  input[type="text"]::-ms-input-placeholder, input[type="tel"]::-ms-input-placeholder, input[type="email"]::-ms-input-placeholder, textarea::-ms-input-placeholder, select {
+    color: grey !important;
+    font-size: 0.8rem; }
+  input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder, textarea::placeholder, select {
+    color: grey !important;
+    font-size: 0.8rem; }
+  .form-group select {
+    font-size: 0.8rem !important; }
   .section1__footertxt, .section1__cta {
     margin-bottom: 5%; } }
 
