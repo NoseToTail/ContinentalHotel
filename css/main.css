@@ -208,7 +208,11 @@ form {
   text-align: right;
   -webkit-transform: translateX(9%);
   -ms-transform: translateX(9%);
-  transform: translateX(9%); }
+  transform: translateX(9%); 
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
 
 #pp-nav.custom span,
 .pp-slidesNav.custom span {
