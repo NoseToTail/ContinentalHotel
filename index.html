@@ -1,147 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/jquery.pagepiling.css">
-    <link rel="stylesheet" href="https://use.typekit.net/iwf1qyq.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/jquery.pagepiling.js"></script>
-    <script type="text/javascript">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/jquery.pagepiling.css">
+	<link rel="stylesheet" href="https://use.typekit.net/iwf1qyq.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/jquery.pagepiling.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			* Plugin intialization
 			*/
-	    	$('#pagepiling').pagepiling({
-                direction: 'horizontal',
-                verticalCentered: true,                  
-	    		anchors: ['', 'vision', 'contact'],
-                sectionsColor: ['white', 'white', 'white'],
-                loopBottom: true,
-                loopTop: true,
-			    navigation: {
-                       'tooltips': ['1', '2', '3'],
-                       'bulletsColor': '#333'
-			   	},
-			    afterRender: function(){
-                    $('video').get(0).play();
-                    $('#pp-nav').addClass('custom');
-			    },
-			    afterLoad: function(anchorLink, index){
-			    	if(index>1){
-                        $('#pp-nav').removeClass('custom');
-			    	}else{
-                        $('#pp-nav').addClass('custom');
-			    	}
-			    }
+			$('#pagepiling').pagepiling({
+				direction: 'horizontal',
+				verticalCentered: true,
+				anchors: ['', 'vision', 'contact'],
+				sectionsColor: ['white', 'white', 'white'],
+				loopBottom: true,
+				loopTop: true,
+				navigation: {
+					'tooltips': ['1', '2', '3'],
+					'bulletsColor': '#333'
+				},
+				afterRender: function(){
+					$('video').get(0).play();
+					$('#pp-nav').addClass('custom');
+				},
+				afterLoad: function(anchorLink, index){
+					if(index>1){
+						$('#pp-nav').removeClass('custom');
+					}else{
+						$('#pp-nav').addClass('custom');
+					}
+				}
 			});
-	    });
-    </script>
-     <link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">
-     <script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
-     <script type="text/javascript">
-         jQuery(function(){
-             jQuery("a.bla-1").YouTubePopUp();
-         });
-     </script>
-    <title>Continental Hotel</title>
+		});
+	</script>
+	 <link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">
+	 <script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
+	 <script type="text/javascript">
+		 jQuery(function(){
+			 jQuery("a.bla-1").YouTubePopUp();
+		 });
+	 </script>
+	<title>Continental Hotel</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133420887-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-133420887-1');
+	</script>
 </head>
 <body>
-    <div id="pagepiling">
-	    <div class="section" id="section1">
-                <div class="layer"></div>
-            <video autoplay="autoplay" loop="loop" muted="muted" id="myVideo" poster="images/Loading Screen.jpg">
-                <source src="video/Continental Hotel Web Video_v1_Reduced Size.mp4" type="video/mp4">
-            </video>
-            <div class="section1__logo">
-                <img src="images/Steller_white.svg" alt="Steller" class="svg">
-            </div>
-            <div class="section1__maintxt">
-                <img src="images/maintxt.svg" alt="Continental Hotel" class="svg">
-            </div>
-            <div class="section1__footertxt">
-                <img src="images/footertxt.svg" alt="An Icon Reimagined" class="svg">
-            </div>
-            <div class="section1__cta">
-                <a class="bla-1" href="https://www.youtube.com/watch?v=8T7VGNnIce0">
-                    <img src="images/cta.svg" alt="Watch the full video" class="svg">
-                </a>
-            </div>
-	    </div>
-	    <div class="section">
-            <div class="section1__logo">
-                <img src="images/Steller_black.svg" alt="Steller" class="svg mobile-hidden2">
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="images/page2hero_v2.jpg" alt="Continental Hotel" class="page2hero">
-                    <img src="images/page2heroMobile_v2.jpg" alt="Continental Hotel" class="page2heroMobile">
-                </div>
-                <div class="col-sm-6 section2__text tk-mr-eaves-modern">
-                    <p>With a spirit that celebrates continental Europe and the Australian coastline, the reimagined Continental Hotel will bring a new sense of style to the coveted Mornington Peninsula.<br><br>
-                        Only 75 minutes from Melbourne, the Continental Hotel will feature luxury accommodation, destination dining, a wellness centre and premium wedding and event facilities.<br><br>
-                        <strong>This is a grand European hotel, with an Australian accent.</strong></p>
-                    <span class="footer__text tk-aktiv-grotesk-extended">AN ICON REIMAGINED</span>
-                </div>
-            </div>
-	    </div>
-	    <div class="section" id="section3">
-            <div class="section1__logo mobile-hidden">
-                <img src="images/Steller_black.svg" alt="Steller" class="svg">
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="contactInfo">
-                        <p class="tk-aktiv-grotesk-extended">MEDIA AND PRESS ENQUIRIES<br><br>MEG CARROLL</p>
-                        <p class="tk-mr-eaves-modern">Papermill Media<br><a href="mailto:meg@papermillmedia.com.au">meg@papermillmedia.com.au</a><br><a href="tel:+61 407 872 658">+61 407 872 658</a></p>
-                    </div>
-                    <hr>
-                </div>
-                <div class="col-sm-6">
-                    <div class="formheader">
-                        <p class="tk-aktiv-grotesk-extended">GENERAL ENQUIRIES</p>
-                    </div>
-                    <form name="contact" method="POST" netlify class="tk-mr-eaves-modern">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Name" name="Name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Email Address" name="Email">
-                            </div>
-                            <div class="form-group col-md-6 down-arrow">
-                                <select class="form-control" name="Nature of enquiry">
-                                    <option selected>Nature of enquiry</option>
-                                    <option>Recruitment</option>
-                                    <option>Accommodation</option>
-                                    <option>Procurement</option>
-                                    <option>Other</option>                                    
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject Line" id="subjectLine" name="Subject Line">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="2" placeholder="Message" name="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn cust-btn tk-mr-eaves-modern">SUBMIT<span class="right-arrow"></span></button>
-                    </form>
-                </div>
-            </div>
-	    </div>
-    </div>
-    
-    <script>
-      
-    </script>
+	<div id="pagepiling">
+		<div class="section" id="section1">
+				<div class="layer"></div>
+			<video autoplay="autoplay" loop="loop" muted="muted" id="myVideo" poster="images/Loading Screen.jpg">
+				<source src="video/Continental Hotel Web Video_v1_Reduced Size.mp4" type="video/mp4">
+			</video>
+			<div class="section1__logo">
+				<img src="images/Steller_white.svg" alt="Steller" class="svg">
+			</div>
+			<div class="section1__maintxt">
+				<img src="images/maintxt.svg" alt="Continental Hotel" class="svg">
+			</div>
+			<div class="section1__footertxt">
+				<img src="images/footertxt.svg" alt="An Icon Reimagined" class="svg">
+			</div>
+			<div class="section1__cta">
+				<a class="bla-1" href="https://www.youtube.com/watch?v=8T7VGNnIce0">
+					<img src="images/cta.svg" alt="Watch the full video" class="svg">
+				</a>
+			</div>
+		</div>
+		<div class="section">
+			<div class="section1__logo">
+				<img src="images/Steller_black.svg" alt="Steller" class="svg mobile-hidden2">
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/page2hero_v2.jpg" alt="Continental Hotel" class="page2hero">
+					<img src="images/page2heroMobile_v2.jpg" alt="Continental Hotel" class="page2heroMobile">
+				</div>
+				<div class="col-sm-6 section2__text tk-mr-eaves-modern">
+					<p>With a spirit that celebrates continental Europe and the Australian coastline, the reimagined Continental Hotel will bring a new sense of style to the coveted Mornington Peninsula.<br><br>
+						Only 75 minutes from Melbourne, the Continental Hotel will feature luxury accommodation, destination dining, a wellness centre and premium wedding and event facilities.<br><br>
+						<strong>This is a grand European hotel, with an Australian accent.</strong></p>
+					<span class="footer__text tk-aktiv-grotesk-extended">AN ICON REIMAGINED</span>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div class="section1__logo mobile-hidden">
+				<img src="images/Steller_black.svg" alt="Steller" class="svg">
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="contactInfo">
+						<p class="tk-aktiv-grotesk-extended">MEDIA AND PRESS ENQUIRIES<br><br>MEG CARROLL</p>
+						<p class="tk-mr-eaves-modern">Papermill Media<br><a href="mailto:meg@papermillmedia.com.au">meg@papermillmedia.com.au</a><br><a href="tel:+61 407 872 658">+61 407 872 658</a></p>
+					</div>
+					<hr>
+				</div>
+				<div class="col-sm-6">
+					<div class="formheader">
+						<p class="tk-aktiv-grotesk-extended">GENERAL ENQUIRIES</p>
+					</div>
+					<form name="contact" method="POST" netlify class="tk-mr-eaves-modern">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input type="text" class="form-control" placeholder="Name" name="Name">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input type="email" class="form-control" placeholder="Email Address" name="Email">
+							</div>
+							<div class="form-group col-md-6 down-arrow">
+								<select class="form-control" name="Nature of enquiry">
+									<option selected>Nature of enquiry</option>
+									<option>Recruitment</option>
+									<option>Accommodation</option>
+									<option>Procurement</option>
+									<option>Other</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject Line" id="subjectLine" name="Subject Line">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="2" placeholder="Message" name="Message"></textarea>
+						</div>
+						<button type="submit" class="btn cust-btn tk-mr-eaves-modern">SUBMIT<span class="right-arrow"></span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
